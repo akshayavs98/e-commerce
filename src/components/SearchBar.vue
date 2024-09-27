@@ -20,6 +20,7 @@ export default defineComponent({
   border: 1px solid #ddd;
   border-radius: 28px;
   padding: 0 24px;
+  background-color: var(--vt-secondary);
 }
 
 .search-bar input {
@@ -27,14 +28,6 @@ export default defineComponent({
   padding: 8px;
   outline: none;
   font-size: 16px;
-}
-
-.search-bar button {
-  background-color: #ff5a5f;
-  border: none;
-  padding: 8px;
-  color: white;
-  cursor: pointer;
-  border-radius: 0 4px 4px 0;
+  background-color: var(--vt-secondary);
 }
 </style>

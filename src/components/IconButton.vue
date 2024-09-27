@@ -23,7 +23,10 @@ export default defineComponent({
   align-items: center;
   border: none;
   cursor: pointer;
-  background-color: #efefef;
+  background-color: var(--vt-secondary);
   border-radius: 50%;
+}
+.icon-button:hover {
+  background-color: var(--vt-main);
 }
 </style>

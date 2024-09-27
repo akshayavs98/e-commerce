@@ -26,7 +26,7 @@
 }
 
 .link:hover {
-  color: red;
+  color: var(--vt-main);
   cursor: pointer;
 }
 </style>
