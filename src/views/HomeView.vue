@@ -1,9 +1,5 @@
 <template>
-  <main>
-    <TopBar />
-  </main>
+  <div>This is home</div>
 </template>
 
-<script setup>
-import TopBar from '../components/TopBar.vue'
-</script>
+<script setup></script>

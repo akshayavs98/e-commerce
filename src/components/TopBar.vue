@@ -46,6 +46,9 @@ export default defineComponent({
   background-color: #ffffff;
   gap: 1em;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  z-index: 1000;
+  top: 0;
 }
 
 /* Logo */
