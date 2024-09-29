@@ -1,7 +1,9 @@
 <template>
   <main>
     <TopBar />
-    <RouterView />
+    <div class="view">
+      <RouterView />
+    </div>
   </main>
 </template>
 
@@ -9,3 +11,9 @@
 import TopBar from './components/TopBar.vue'
 import { RouterView } from 'vue-router'
 </script>
+
+<style scoped>
+.view {
+  margin: 25px;
+}
+</style>

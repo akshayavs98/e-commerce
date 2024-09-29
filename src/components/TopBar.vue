@@ -43,7 +43,7 @@ export default defineComponent({
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: var(--vt-c-white);
   gap: 1em;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -54,7 +54,7 @@ export default defineComponent({
 /* Logo */
 .logo a {
   font-size: 24px;
-  color: #333;
+  color: var(--vt-main);
   text-decoration: none;
   font-weight: bold;
 }
@@ -70,8 +70,8 @@ export default defineComponent({
   position: absolute;
   top: -8px;
   right: -10px;
-  background-color: #ff5a5f;
-  color: white;
+  background-color: var(--vt-main);
+  color: var(--vt-c-white);
   border-radius: 50%;
   padding: 2px 6px;
   font-size: 12px;

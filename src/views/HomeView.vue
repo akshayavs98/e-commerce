@@ -1,5 +1,15 @@
 <template>
-  <div>This is home</div>
+  <ProductList></ProductList>
 </template>
 
-<script setup></script>
+<script>
+import { defineComponent } from 'vue'
+import ProductList from '@/components/ProductList.vue'
+
+export default defineComponent({
+  components: {
+    ProductList
+  },
+  setup() {}
+})
+</script>
